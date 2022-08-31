@@ -9,8 +9,7 @@
     "128": "icons/icon-128.png"
   },
   "background": {
-    "service_worker": "background.js",
-    "type": "module"
+    "page": "background-page.html"
   },
   "action": {
     "default_icon": {
@@ -23,5 +22,6 @@
     },
     "default_title": "Ethereum Gas Prices",
     "default_popup": "popup.html"
-  }
+  },
+  "content_scripts": []
 }
